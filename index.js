@@ -157,7 +157,7 @@ function draw() {
   } else {
     background("red");
     textSize(32);
-    text("YOU LOST!!!", 30, 30);
+    text("YOU LOST!!!", width/2, height/2);
   }
   console.log(teleportation);
 }
