@@ -8,3 +8,7 @@ Click 'T' to teleport to another location on the screen.
 Click the cursor for a special surprise!
 
 Want to play again? Just refresh the page. 
+
+
+Created by Alexis SooHoo
+Play here at https://alexissoohoo.github.io/chase/
