@@ -1,3 +1,11 @@
+let backgroundImage;
+
+function preload() {
+  backgroundImage = loadImage(
+    "https://cdn.shopify.com/s/files/1/0024/2810/8869/products/white-marble-1_800x.png?v=1570991560"
+  );
+}
+
 const progressBar = document.querySelector("progress");
 
 let scarecrowActive = 0;
@@ -141,7 +149,7 @@ function pushOff(c1, c2) {
 
 function draw() {
   if (player.health > 0) {
-    background("lightgreen");
+    background(backgroundImage);
     player.render();
     player.move();
     if (scarecrowActive === 1) {
@@ -157,7 +165,7 @@ function draw() {
   } else {
     background("red");
     textSize(32);
-    text("YOU LOST!!!", width/2, height/2);
+    text("YOU LOST!!!", height / 2, width / 2);
   }
   console.log(teleportation);
 }

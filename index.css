@@ -1,6 +1,8 @@
 h1 {
-    font-family: Avenir;
-  }
-  progress {
-    width: 500px;
-  }
+  font-family: Garamond;
+  text-align: center;
+}
+
+progress {
+  width: 800px;
+}
