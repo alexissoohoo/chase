@@ -11,4 +11,5 @@ Want to play again? Just refresh the page.
 
 
 Created by Alexis SooHoo
+
 Play here at https://alexissoohoo.github.io/chase/
